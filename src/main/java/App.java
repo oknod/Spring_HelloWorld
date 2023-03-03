@@ -14,7 +14,6 @@ public class App {
 
         Cat cat =
                 (Cat) applicationContext.getBean("cat");
-        System.out.println(cat.getName());
         Cat cat1 =
                 (Cat) applicationContext.getBean("cat");
 
